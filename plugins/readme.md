@@ -167,3 +167,24 @@ id: christian-kohler.npm-intellisense
 发布者: Christian Kohler
 VS Marketplace 链接: https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense
 ```
+
+## setting sync 
+```
+名称: Settings Sync
+id: shan.code-settings-sync
+说明: Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist.
+版本: 3.4.3
+发布者: Shan Khan
+VS Marketplace 链接: https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
+```
+
+
+## 代码执行
+```
+名称: Code Runner
+id: formulahendry.code-runner
+说明: Run C, C++, Java, JS, PHP, Python, Perl, Ruby, Go, Lua, Groovy, PowerShell, CMD, BASH, F#, C#, VBScript, TypeScript, CoffeeScript, Scala, Swift, Julia, Crystal, OCaml, R, AppleScript, Elixir, VB.NET, Clojure, Haxe, Obj-C, Rust, Racket, Scheme, AutoHotkey, AutoIt, Kotlin, Dart, Pascal, Haskell, Nim, 
+版本: 0.9.15
+发布者: Jun Han
+VS Marketplace 链接: https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
+```
