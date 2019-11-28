@@ -1,0 +1,14 @@
+{
+    "macros": {
+        "end_semicolon": [ // 末尾加分号
+            "cursorLineEnd",
+            {
+                "command": "type",
+                "args": {
+                    "text": ";"
+                }
+            },
+        ],
+
+    }
+}
