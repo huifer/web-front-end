@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2019-11-28 17:12:50
- * @LastEditTime: 2019-11-29 09:54:32
+ * @LastEditTime: 2019-11-29 10:13:25
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \web-front-end\es6\readme.md
@@ -187,4 +187,22 @@ console.log(p3)
 
 let p4 = new Point3d(1,2,3)
 console.log(p4)
+```
+
+## module 
+- 通过`export`和`import`命令组合实现 **模块**
+- profile.js
+```js
+export var project_name = 'web-pc';
+export var year = 2019;
+
+var auth_name = 'huifer';
+export { auth_name };
+
+```
+- module_demo.js
+```js
+import {auth_name,project_name,year} from "./profile.js"
+console.log(auth_name,project_name,year)
+
 ```
