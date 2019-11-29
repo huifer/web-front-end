@@ -1,6 +1,6 @@
 var async = require('async');
 // 创建测试数据
-ar data_list = ['1','2','3','4','5','6','7','8','9','0'];
+var data_list = ['1','2','3','4','5','6','7','8','9','0'];
 // 创建线程数记录器
 var concurrencyCount = 0;
 
@@ -9,7 +9,7 @@ var fetchUrl = function(data, callback) {
   concurrencyCount++;
   console.log(new Date().getTime() + '现在的并发数是', concurrencyCount, ', 数据: ', data);
 
-  // 具体业务, 这里的callback 指的就是async.mapLimit,最后的参数callback
+  // 具体业务, 这里的callback 指的就是async.mapLimit
   setTimeout(function() {
     concurrencyCount--;
     if (data ==='0') {
