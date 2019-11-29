@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2019-11-28 17:12:50
- * @LastEditTime: 2019-11-29 09:39:09
+ * @LastEditTime: 2019-11-29 09:54:32
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \web-front-end\es6\readme.md
@@ -150,3 +150,41 @@ console.log(map2jsonArray(myMap))
 
 ```
 ## class
+```js
+class Point {
+  constructor(x, y) {
+    this.x = x;
+    this.y = y;
+  }
+  toString() {
+    return '( x = ' + this.x + ' , y = ' + this.y + ' )';
+  }
+  static staticFunction() {
+   // 静态方法
+    return new Point(1, 1);
+  }
+}
+
+let p = new Point(1, 2);
+let pString = p.toString();
+console.log(p);
+console.log(pString);
+
+let p2 = Point.staticFunction();
+console.log(p2);
+
+class Point3d extends Point {
+  constructor(x, y, z) {
+    this.x = x;
+    this.y = y;
+    this.z = z;
+  }
+}
+
+
+let p3 = Point3d.staticFunction()
+console.log(p3)
+
+let p4 = new Point3d(1,2,3)
+console.log(p4)
+```
