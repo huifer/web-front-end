@@ -22,8 +22,9 @@ console.log(p2);
 
 class Point3d extends Point {
   constructor(x, y, z) {
-    this.x = x;
-    this.y = y;
+    // this.x = x;
+    // this.y = y;
+    super(x,y);
     this.z = z;
   }
 }
