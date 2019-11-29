@@ -1,11 +1,3 @@
-<!--
- * @Author: your name
- * @Date: 2019-11-28 17:12:50
- * @LastEditTime: 2019-11-29 10:13:25
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \web-front-end\es6\readme.md
- -->
 # ES6 
 ## let
 - `let`用于声明变量,且`let`只会在当前代码块生效,`for`循环使用时可用`let`
