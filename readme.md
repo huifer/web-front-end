@@ -4,3 +4,4 @@
 - my-app: react学习
 - node: node方面技术学习
 - webpack: webpack技术学习
+- [vscode 插件](plugins/readme.md)
