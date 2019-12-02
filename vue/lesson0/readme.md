@@ -29,11 +29,7 @@ export default {
 }
 ```
 - 两款格式化插件将data() 都当作函数使用了...OMG 😢😢😢
-**解决方案: 换成函数形式表达,不采用匿名函数!**
+- 解决方法:修改`.eslintrc.js`
 ```js
- data: function() {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  }
-```
+ 'space-before-function-paren':["error", {"anonymous": "always", "named": "never", "asyncArrow": "always"}]
+ ```
