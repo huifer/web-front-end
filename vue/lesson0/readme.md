@@ -33,3 +33,4 @@ export default {
 ```js
  'space-before-function-paren':["error", {"anonymous": "always", "named": "never", "asyncArrow": "always"}]
  ```
+ - 解决完这个问题就可以启动了 `npm run dev` 
