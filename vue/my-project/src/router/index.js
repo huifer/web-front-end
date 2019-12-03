@@ -5,7 +5,6 @@ import HelloWorld from '@/components/HelloWorld';
 import routeDemo from '@/components/RouteDemo';
 import grammar from '@/components/Grammar';
 import conditional from '@/components/Conditional';
-import todo from '@/components/TodoList';
 Vue.use(Router);
 
 export default new Router({
@@ -29,11 +28,6 @@ export default new Router({
       path: '/conditional',
       name: 'conditional',
       component: conditional
-    },
-    {
-      path: '/todo',
-      name: 'todo',
-      component: todo
     }
   ]
 });

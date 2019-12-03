@@ -26,7 +26,7 @@ module.exports = {
     // 函数前空格问题
     'space-before-function-paren': ['error', { anonymous: 'never', named: 'never', asyncArrow: 'never' }],
     // 'indent': ['error', 2, { SwitchCase: 1 }]
-    'indent': [1, 2],
-    'semi': ["error", "always", { "omitLastInOneLineBlock": true}]
+    indent: [1, 2],
+    semi: ['error', 'always', { omitLastInOneLineBlock: true }]
   }
 };

@@ -11,9 +11,6 @@
       <li>
         <router-link to="conditional">条件渲染</router-link>
       </li>
-         <li>
-        <router-link to="todo">todoList</router-link>
-      </li>
     </ul>
   </div>
 </template>
