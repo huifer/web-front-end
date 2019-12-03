@@ -1,7 +1,11 @@
 {
     "cSpell.words": [
+        "Arial",
+        "Avenir",
+        "Helvetica",
         "Nightwatch's",
         "Parens",
+        "antialiased",
         "browserslist",
         "chromedriver",
         "chunkhash",
@@ -11,6 +15,7 @@
         "devtool",
         "devtools",
         "flac",
+        "grayscale",
         "nightwatch",
         "polyfill",
         "portfinder",
