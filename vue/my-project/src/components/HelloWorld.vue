@@ -8,6 +8,9 @@
       <li>
         <router-link to="/grammar">基础语法</router-link>
       </li>
+      <li>
+        <router-link to="conditional">条件渲染</router-link>
+      </li>
     </ul>
   </div>
 </template>
