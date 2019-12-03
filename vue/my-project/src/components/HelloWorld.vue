@@ -5,6 +5,9 @@
       <li>
         <router-link to="/route_demo">route_demo</router-link>
       </li>
+      <li>
+        <router-link to="/grammar">基础语法</router-link>
+      </li>
     </ul>
   </div>
 </template>
