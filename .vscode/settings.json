@@ -1,29 +1,36 @@
 {
-    "cSpell.words": [
-        "Arial",
-        "Avenir",
-        "Helvetica",
-        "Nightwatch's",
-        "Parens",
-        "antialiased",
-        "browserslist",
-        "chromedriver",
-        "chunkhash",
-        "codesplit",
-        "contenthash",
-        "deduped",
-        "devtool",
-        "devtools",
-        "flac",
-        "grayscale",
-        "nightwatch",
-        "polyfill",
-        "portfinder",
-        "serializer",
-        "styl",
-        "uglifyjs",
-        "webm",
-        "woff",
-        "xlink"
-    ]
+  "cSpell.words": [
+    "Arial",
+    "Avenir",
+    "Helvetica",
+    "Nightwatch's",
+    "Parens",
+    "antialiased",
+    "browserslist",
+    "chromedriver",
+    "chunkhash",
+    "codesplit",
+    "contenthash",
+    "deduped",
+    "devtool",
+    "devtools",
+    "flac",
+    "grayscale",
+    "nightwatch",
+    "polyfill",
+    "portfinder",
+    "serializer",
+    "styl",
+    "uglifyjs",
+    "webm",
+    "woff",
+    "xlink"
+  ],
+  "workbench.colorCustomizations": {
+    "terminal.foreground": "#37FF13"
+  },
+  "editor.tokenColorCustomizations": {
+      
+      "comments": "#76CB58"
+  }
 }
