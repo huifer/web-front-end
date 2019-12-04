@@ -30,7 +30,14 @@
     "terminal.foreground": "#37FF13"
   },
   "editor.tokenColorCustomizations": {
-      
-      "comments": "#76CB58"
-  }
+    "comments": "#76CB58"
+  },
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "printWidth": 100,
+      "singleQuote": false,
+      "wrap_attributes": "force-expand-multiline"
+    }
+  },
+  "vetur.format.defaultFormatter.html": "js-beautify-html"
 }
