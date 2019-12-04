@@ -7,10 +7,11 @@
 </template>
 
 <script>
-import Heard from './components/Heard.vue';
-import Footer from './components/Footer.vue';
-import Todo from './components/Todo.vue';
-export default {
+  import Heard from './components/Heard.vue';
+  import Footer from './components/Footer.vue';
+  import Todo from './components/Todo.vue';
+
+  export default {
   name: 'App',
   components: {
     Heard,
