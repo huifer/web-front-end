@@ -23,6 +23,7 @@ export default {
   },
   methods: {
     deleteTodo() {
+      // 向上层传递id参数@del在标签上追加真正的方法在todo.vue
       this.$emit('del', this.todo.id);
     }
   }

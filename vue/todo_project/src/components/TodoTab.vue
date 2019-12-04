@@ -30,8 +30,6 @@ export default {
   },
   methods: {
     toggleFilter(state) {
-      console.log(state);
-
       this.$emit('togole', state);
     },
     btnType(state) {

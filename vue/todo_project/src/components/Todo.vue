@@ -1,12 +1,5 @@
 <template>
   <div>
-    <!-- element ui input  -->
-    <!-- <el-input
-      type="text"
-      v-model="inputtext"
-      placeholder="请输入用户名"
-      @keyup.enter.native="addTodo"
-    ></el-input> -->
     <input
       type="text"
       class="add-input"
